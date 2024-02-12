@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <Canvas>
+      <Canvas camera={{ fov: 60, position: [-2, 2, 3] }}>
         <ExampleScene />
       </Canvas>
     </>
